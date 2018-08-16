@@ -1,6 +1,6 @@
 # OptionsPricing
 
-This python program can be used for <b>pricing an option</b> or determining <b>implied volatility</b>, with the Black Scholes model.
+This python program can be used for <b>pricing</b> an <b>option</b> or determining <b>implied volatility</b>, with the Black Scholes model.
 
 ## Assumptions
 
@@ -27,7 +27,7 @@ python3 BlackScholes.py -m impliedvolatility -s 10 -x 10 -r 0.01 -t 0.25 -mp 5.7
 
 ```-r``` (float) <i>risk-free interest rate</i>, required
 
-```-v``` (float) <i>volatility</i>, standard deviation of log returns, required if <b>pricing an option</b>
+```-v``` (float) <i>volatility</i>, standard deviation of log returns, required if <b>pricing</b> an <b>option</b>
 
 ```-mp``` (float) <i>market price</i> of the option, required if determining <b>implied volatility</b>
 
@@ -39,6 +39,6 @@ python3 BlackScholes.py -m impliedvolatility -s 10 -x 10 -r 0.01 -t 0.25 -mp 5.7
 
 ```-m``` (str) <i>mode</i>, ```optionprice``` or ```impliedvolatility```. Default: ```optionprice```
 
-```-p``` (float) <i>precision</i>, in calculating implied volatility, threshold below which to accept volatility estimate. Default: ```optionprice```
+```-p``` (float) <i>precision</i>, in calculating <b>implied volatility</b>, threshold below which to accept volatility estimate. Default: ```optionprice```
 
-```-i``` (int) <i>iterations</i>, in calculating implied volatility, the maximum number of times to run the Newton-Raphson method of successive approximations. Default: ```100```
+```-i``` (int) <i>iterations</i>, in calculating <b>implied volatility</b>, the maximum number of times to run the Newton-Raphson method of successive approximations. Default: ```100```
