@@ -21,24 +21,24 @@ python3 BlackScholes.py -m impliedvolatility -s 10 -x 10 -r 0.01 -t 0.25 -mp 5.7
 ```
 
 ## Arguments
-```-s``` (float) <i>stock price</i>, <span style="color: red">required</span>
+```-s``` (float) <i>stock price</i>, ![#f03c15](required)
 
-```-x``` (float) <i>strike price</i>, <span style="color: red">required</span>
+```-x``` (float) <i>strike price</i>, ![#f03c15](required)
 
-```-r``` (float) <i>risk-free interest rate</i>, <span style="color: red">required</span>
+```-r``` (float) <i>risk-free interest rate</i>, ![#f03c15](required)
 
-```-v``` (float) <i>volatility</i>, standard deviation of log returns, <span style="color: orange">required</span> if <b>pricing an option</b>
+```-v``` (float) <i>volatility</i>, standard deviation of log returns, ![#ffa500](required) if <b>pricing an option</b>
 
-```-mp``` (float) <i>market price</i> of the option, <span style="color: orange">required</span> if determining <b>implied volatility</b>
+```-mp``` (float) <i>market price</i> of the option, ![#ffa500](required) if determining <b>implied volatility</b>
 
-```-t``` (float) <i>tau</i>, time to expiry expressed as fraction of year, <span style="color: orange">required</span>. <span style="color: blue">Alternative</span>: ```-ed```
+```-t``` (float) <i>tau</i>, time to expiry expressed as fraction of year, ![#ffa500](required). ![#082567](Alternative): ```-ed```
 
-```-ed``` (str) <i>expiry date</i> of option in <i>dd/mm/yyyy</i> format, <span style="color: orange">required</span>. <span style="color: blue">Alternative</span>: ```-t```
+```-ed``` (str) <i>expiry date</i> of option in <i>dd/mm/yyyy</i> format, ![#ffa500](required). ![#082567](Alternative): ```-t```
 
-```-ot``` (str) <i>option type</i>, ```call``` or ```put```. <span style="color: green">Default</span>: ```call```
+```-ot``` (str) <i>option type</i>, ```call``` or ```put```. ![#556b2f](Default): ```call```
 
-```-m``` (str) <i>mode</i>, ```optionprice``` or ```impliedvolatility```. <span style="color: green">Default</span>: ```optionprice```
+```-m``` (str) <i>mode</i>, ```optionprice``` or ```impliedvolatility```. ![#556b2f](Default): ```optionprice```
 
-```-p``` (float) <i>precision</i>, in calculating implied volatility, threshold below which to accept volatility estimate. <span style="color: green">Default</span>: ```optionprice```
+```-p``` (float) <i>precision</i>, in calculating implied volatility, threshold below which to accept volatility estimate. ![#556b2f](Default): ```optionprice```
 
-```-i``` (int) <i>iterations</i>, in calculating implied volatility, the maximum number of times to run the Newton-Raphson method of successive approximations. <span style="color: green">Default</span>: ```100```
+```-i``` (int) <i>iterations</i>, in calculating implied volatility, the maximum number of times to run the Newton-Raphson method of successive approximations. ![#556b2f](Default): ```100```
