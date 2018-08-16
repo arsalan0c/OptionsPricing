@@ -13,7 +13,7 @@ This python program can be used for <b>pricing an option</b> or determining <b>i
 
 Put option pricing: 
 ```bash 
-python3 BlackScholes.py -s 10 -x 10 -r 0.0.1 -v 0.3 -t 0.25 
+python3 BlackScholes.py -ot put -s 10 -x 10 -r 0.0.1 -v 0.3 -t 0.25 
 ```
 Call option implied volatility:
 ```bash 
