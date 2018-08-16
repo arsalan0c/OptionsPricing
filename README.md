@@ -1,6 +1,6 @@
 # OptionsPricing
 
-This python program can be used to for <b>pricing an option</b> or determining <b>implied volatility</b>, with the Black Scholes model.
+This python program can be used for <b>pricing an option</b> or determining <b>implied volatility</b>, with the Black Scholes model.
 
 ## Assumptions
 
