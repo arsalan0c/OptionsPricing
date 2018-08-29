@@ -21,19 +21,19 @@ python3 BlackScholes.py -m impliedvolatility -s 10 -x 10 -r 0.01 -t 0.25 -mp 5.7
 ```
 
 ## Arguments
-```-s``` (float) <i>stock price</i>, required
+```-s``` (float) <i>stock price</i>, <b>required</b>
 
-```-x``` (float) <i>strike price</i>, required
+```-x``` (float) <i>strike price</i>, <b>required</b>
 
-```-r``` (float) <i>risk-free interest rate</i>, required
+```-r``` (float) <i>risk-free interest rate</i>, <b>required</b>
 
 ```-v``` (float) <i>volatility</i>, standard deviation of log returns, required if <b>pricing</b> an <b>option</b>
 
 ```-mp``` (float) <i>market price</i> of the option, required if determining <b>implied volatility</b>
 
-```-t``` (float) <i>tau</i>, time to expiry expressed as fraction of year, required. Alternative: ```-ed```
+```-t``` (float) <i>tau</i>, time to expiry expressed as fraction of year, <b>required</b>. Alternative: ```-ed```
 
-```-ed``` (str) <i>expiry date</i> of option in <i>dd/mm/yyyy</i> format, required. Alternative: ```-t```
+```-ed``` (str) <i>expiry date</i> of option in <i>dd/mm/yyyy</i> format, <b>required</b>. Alternative: ```-t```
 
 ```-ot``` (str) <i>option type</i>, ```call``` or ```put```. Default: ```call```
 
