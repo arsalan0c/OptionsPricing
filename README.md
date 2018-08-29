@@ -39,6 +39,6 @@ python3 BlackScholes.py -m impliedvolatility -s 10 -x 10 -r 0.01 -t 0.25 -mp 5.7
 
 ```-m``` (str) <i>mode</i>, ```optionprice``` or ```impliedvolatility```. Default: ```optionprice```
 
-```-p``` (float) <i>precision</i>, in calculating <b>implied volatility</b>, threshold below which to accept volatility estimate. Default: ```optionprice```
+```-p``` (float) <i>precision</i>, in calculating <b>implied volatility</b>, threshold below which to accept volatility estimate. Default: ```1e-4```
 
 ```-i``` (int) <i>iterations</i>, in calculating <b>implied volatility</b>, the maximum number of times to run the Newton-Raphson method of successive approximations. Default: ```100```
